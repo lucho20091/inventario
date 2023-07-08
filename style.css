@@ -1,0 +1,72 @@
+
+.primero{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+body {
+    background: #eee5f7
+}
+.primero {
+    background: white;
+    padding: 20px 20px 20px 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid black;
+    font-size: 1em;
+    color: black;
+}
+
+.primeroform {
+    background: white;
+    padding: 20px 20px 20px 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid black;
+    font-size: 1em;
+    color: black;
+}
+@media screen and (max-width: 975px) {
+    #ingrese{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1980px) {
+    #ingrese{
+        width: 900px;
+    }
+}
+
+
+
+.primeroform input{
+    box-shadow: 5px 5px;
+
+}
+.primeroform label{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.primeroform button{
+    margin-left: 4%;
+}
+.primero input{
+    border: 1px solid black;
+}
+.primeroform #nombre, #categoria, #cantidad, #precio {
+    background: rgba(32, 131, 197, 0.562);
+}
+#nombr, #categori, #cantida, #preci {
+    background: rgba(187, 167, 56, 0.562);
+}
+.primero input {
+    height: 100%;
+    box-sizing: border-box;
+
+}
+#elimina {
+    width: 100%;
+    display: block;
+}
